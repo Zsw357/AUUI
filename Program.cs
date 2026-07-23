@@ -6,7 +6,7 @@ internal class Program
 {
     public static async Task Main(string[] args)
     {
-        string ip = "192.168.31.90";
+        string ip = "192.168.1.206";
         int port = 19199;
 
         using var service = new AIUIService(ip, port);
